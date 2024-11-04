@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    
+    <title>Hospital Matta</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widt">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" type="image/jpeg" href="/M2AE1/assets/imgs/hospital-icon.jpeg">
+    <meta name="description" content="Sitio web de Hospital Matta">
+    <meta property="og:title" content="Hospital Matta">
+    <meta property="og:description" content="Un poco de información sobre el Hospital Matta">
+    <meta property="og:image" content="imgs/hospital-icon.jpeg">
+    <meta property="og:image:alt" content="Hospital Matta, junto a tí toda la vida.">
+
+    <style>
+        body {
+            background: rgb(249, 238, 203);
+        }
+    </style>
+    
+    <img style="width:5%; aspect-ratio:212/214;" 
+    loading="lazy" 
+    src="/M2AE1/assets/imgs/hospital-icon.jpeg" 
+    alt="Un ícono de un edificio en silueta negra, con una cruz blanca al centro en un círculo rojo y todo esto dentro de un círculo blanco con borde rojo.">
+    <header>
+        <h1>Hospital Matta</h1>
+            <nav>
+                <a href="/M2AE1/pags/index.html">Home</a>
+                <a href="/M2AE1/pags/equipomedico.html">Equipo Médico</a>
+                <a href="/M2AE1/pags/contacto.html">Contacto</a>
+            </nav>
+    </header>
+    
+    <p></p>
+
+    <a href="https://agenda.bupa.cl/integramedica/mis-reservas/mis-reservas-datos?_gl=1*1twupeq*_ga*OTU4ODI5NTA3LjE3MTc1Mjk4NDg.*_ga_RLCGHQDD0D*MTcyOTU0NDAxNS4zLjAuMTcyOTU0NDAxNS4wLjAuMA.."
+    target="_blank" 
+    rel="noreferrer">
+        <button>Reservar Cita</button>
+    </a>
+</head>
+
+
+<body>
+
+    <section>
+        <h2 id="contacto">Formulario de contacto</h2>
+        <form method="post" action="/">
+            <fieldset>
+                <legend>Información personal</legend>
+                <div>
+                    <label>Nombre:
+                        <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                    </label>
+                </div>
+
+                <div>
+                    <label>Email:
+                        <input type="email" id="email" name="email" placeholder="janedoe@gmail.com" required>
+                    </label>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Información Adicional</legend>
+                    <label>Teléfono:
+                        <input type="tel" id="phone" name="email" placeholder="+56988888888" required pattern="[0-9]{9}">
+                    </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Otros</legend>
+
+                <div>
+                    <label for="terms">¿Aceptas los términos?</label>
+                <input type="checkbox" id="terms" name="terms" required>
+                </div>
+
+                <div>
+                    <label>
+                        Asunto:
+                        <input list="text" name="text">
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        Mensaje:
+                        <input list="text" name="text">
+                    </label>
+                </div>
+            </fieldset>
+
+            <button>Enviar contacto></button>
+        </form>
+    </section>
+
+    <h2>Mapa de Ubicación:</h2>
+    <Section>
+        <article>
+            <header>
+                <h4>Encuéntranos en Santiago Centro</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5490883833854!2d-70.64178679999998!3d-33.4610524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c52befb3a815%3A0x98576c8ccdfdd188!2sHospital%20San%20Borja%20Arriar%C3%A1n!5e0!3m2!1ses!2scl!4v1730137939183!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" alt="mapa de ubicación en barrio Matta, por calle santa rosa 1234, santiago"></iframe>    
+            </header>
+        </article>
+    </Section>
+
+
+    <footer style="text-align: center;">
+        
+        <a href="mailto:nadja.villarroel.n@gmail.com"Envíame un correo></a>
+        <a href="whatsapp://send?text=Hola Nadja!+56989930088"Mandar whatsapp></a>
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div>
+                <h4>Enlaces Rápidos</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="/M2AE1/pags/index.html#servicios">Servicios</a></li>
+                    <li><a href="/M2AE1/pags/equipomedico.html">Equipo Médico</a></li>
+                    <li><a href="/M2AE1/pags/equipomedico.html">Contacto</a></li>
+                </ul>
+            </div>
+
+
+</body>
+</html>
