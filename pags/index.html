@@ -1,160 +1,127 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="./assets/img/favicon_logo-hospital-negativo.jpg">
     <title>Hospital Matta</title>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-widt">
-    <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/jpeg" href="/M2AE1/assets/imgs/hospital-icon.jpeg">
-    <meta name="description" content="Sitio web de Hospital Matta">
-    <meta property="og:title" content="Hospital Matta">
-    <meta property="og:description" content="Un poco de información sobre el Hospital Matta">
-    <meta property="og:image" content="imgs/hospital-icon.jpeg">
-    <meta property="og:image:alt" content="Hospital Matta, junto a tí toda la vida.">
-
-    <style>
-        body {
-            background: rgb(219, 236, 251);
-        }
-    </style>
-    
-    <img style="width:5%; aspect-ratio:212/214;" 
-    src="/M2AE1/assets/imgs/hospital-icon.jpeg"
-    alt="Un ícono de un edificio en silueta negra, con una cruz blanca al centro en un círculo rojo y todo esto dentro de un círculo blanco con borde rojo.">
-    <header>
-        <h1>Hospital Matta</h1>
-            <nav>
-                <a href="/M2AE1/pags/index.html">Home</a>
-                <a href="/M2AE1/pags/equipomedico.html">Equipo Médico</a>
-                <a href="/M2AE1/pags/contacto.html">Contacto</a>
-            </nav>
-    </header>
-    
-    <p></p>
-
-    <a href="https://agenda.bupa.cl/integramedica/mis-reservas/mis-reservas-datos?_gl=1*1twupeq*_ga*OTU4ODI5NTA3LjE3MTc1Mjk4NDg.*_ga_RLCGHQDD0D*MTcyOTU0NDAxNS4zLjAuMTcyOTU0NDAxNS4wLjAuMA.."
-    target="_blank" 
-    rel="noreferrer">
-        <button>Reservar Cita</button>
-    </a>
 </head>
-
-
 <body>
 
     <header>
-        <h2>Bienvenidos a Hospital Matta</h2>
+        <a href="./index.html">
+            <img width="200" title="Logo Hospital Matta" src="./assets/img/logo-hospital-positivo.jpg" target="_blank" alt="Logo de un corazón representativo de hospital Matta">
+        </a>
+        <Nav>
+            <a href="./index.html">Home</a>
+            <a href="./equipo-medico.html">Equipo Médico</a>
+            <a href="./contacto.html">Contacto</a>
+            <a href="https://youtu.be/pVz0k5AzM6A?si=VXAwl0JbRiPUONE8"
+            target="_blank" 
+            rel="noreferrer">
+                <button>Reservar Cita</button>
+            </a>
+        </Nav>
     </header>
-
     <main>
-        <p>En el Hospital Matta, nos comprometemos a brindar atención médica de calidad, con un enfoque centrado en el bienestar y la dignidad de nuestros pacientes. Nuestro equipo de profesionales altamente capacitados está dedicado a ofrecer un servicio integral que cubra todas sus necesidades de salud, en un entorno cálido y acogedor.</p>
-        <p>Ya sea que necesite una consulta, tratamiento especializado o atención de emergencia, estamos aquí para apoyarlo en cada paso de su camino hacia una mejor salud. En el Hospital Matta, su bienestar es nuestra prioridad.</p>
-        <p><strong>Confianza, cuidado y compromiso con su salud.</strong>
-        <p></p>
+        <section id="bienvenida">
+            <h1>Bienvenidos</h1>
+            <p>En el Hospital Matta, nos comprometemos a brindar atención médica de calidad, con un enfoque centrado en el bienestar y la dignidad de nuestros pacientes. Nuestro equipo de profesionales altamente capacitados está dedicado a ofrecer un servicio integral que cubra todas sus necesidades de salud, en un entorno cálido y acogedor.</p>
+            <p>Ya sea que necesite una consulta, tratamiento especializado o atención de emergencia, estamos aquí para apoyarlo en cada paso de su camino hacia una mejor salud. En el Hospital Matta, su bienestar es nuestra prioridad.</p>
+            <p><strong>Confianza, cuidado y compromiso con su salud.</strong>
+        </section>
 
-        <section>
-            <header>
-                <h2 id="servicios">Nuestros servicios</h2>
-            </header>
-            
-            <div>
-                <h3>Consultas</h3>
-                <img 
+        <section id="servicios">
+            <table>
+                <tr>
+                    <th colspan="3"><h2>Nuestros servicios</h2></th>
+                </tr>
+                <tr>
+                    <td><img 
+                        width="200"
+                        height="200"
+                        title="Ícono para consultas"
+                        alt="Ícono consultas, una mano sosteniendo un corazón latiendo"
+                        src="./assets/img/consultas.jpg"></td>
+                    <td><img
+                        width="200"
+                        height="200"
+                        title="Ícono para urgencias" 
+                        alt="Ícono urgencias, el símbolo de la medicina: un báculo con dos serpientes entrelazadas en el mástil y un par de alas en la parte superior" 
+                        src="./assets/img/urgencias.jpg"></td>
+                    <td><img 
+                        width="200"
+                        height="200"
+                        title="Ícono para especialidades" 
+                        alt="Ícono especialidades, una cruz blanca con el signo de un latido, sobre un círculo rojo" 
+                        src="./assets/img/especialidades.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Consultas</td>
+                    <td>Urgencias</td>
+                    <td>Especialidades</td>
+                </tr>
+                <tr>
+                    <td>Amplia variedad de profesionales y alta disponibilidad de bloques horarios.</td>
+                    <td>Rápida atención en nuestra división de urgencias. Estamos preparados para atenderte en <em>máximo 1 hora desde tu llegada.</td>
+                    <td>Revisa nuestra oferta de especialidades y variedad de Exámenes de Laboratorio.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios de Pacientes</h2>
+            <article>
+                <header><h3>María González - Paciente de cirugía general</h3></header>
+                <main>
+                    <p><em>"Mi experiencia en el Hospital Matta fue excepcional. Desde el momento en que ingresé, el personal me trató con amabilidad y profesionalismo. La cirugía fue un éxito, y el seguimiento postoperatorio fue muy cuidadoso. Me sentí en buenas manos en todo momento, y recomendaría este hospital sin dudarlo a familiares y amigos."</em></p>
+                    <img 
+                        width="200"
+                        height="200"
+                        title="Testimonio de pacientes 1" 
+                        alt="María González, una mujer de 40 años sonriente, con melena castaña y rizos." 
+                        src="./assets/img/testimonio_1.jpg">
+                </main>
+            </article>
+
+            <article>
+                <header><h3>Carlos Pérez - Paciente de atención de emergencia</h3></header>
+                <main><p><em>"Llegué al Hospital Matta en una situación de emergencia y el equipo médico actuó rápidamente para estabilizarme. La atención fue eficiente y humana, lo que me dio mucha tranquilidad en un momento de gran estrés. Agradezco al equipo por su dedicación y profesionalismo. Hoy, gracias a ellos, estoy recuperado y en buen estado de salud."</em></p>
+                    <img style="text-align: center;"
                     width="200"
                     height="200"
-                    title="Ícono para consultas" 
-                    alt="Ícono consultas, una mano sosteniendo un corazón latiendo" 
-                    src="/M2AE1/assets/imgs/consultas.jpg">
-                <p>Amplia variedad de profesionales y alta disponibilidad de bloques horarios.</p>
-            </div>
+                    title="Testimonio de pacientes 2" 
+                    alt="Carlos Pérez, un hombre calvo pero jovial de 60 años con lentes de marco negro delgado, chaleco beige y pecas en la nuca." 
+                    src="./assets/img/testimonio_2.jpg">
+                </main>
+            </article>
 
-            <div>
-                <h3>Urgencias</h3>
-                <img 
-                width="200"
-                height="200"
-                title="Ícono para urgencias" 
-                alt="Ícono urgencias, el símbolo de la medicina: un báculo con dos serpientes entrelazadas en el mástil y un par de alas en la parte superior" 
-                src="/M2AE1/assets/imgs/urgencias.jpeg">
-                <p>Rápida atención en nuestra división de urgencias. Estamos preparados para atenderte en <em>máximo 1 hora desde tu llegada.</em></p>
-            </div>
-
-            <div>
-                <h3>Especialidades</h3>
-                <img 
-                width="200"
-                height="200"
-                title="Ícono para especialidades" 
-                alt="Ícono especialidades, una cruz blanca con el signo de un latido, sobre un círculo rojo" 
-                src="/M2AE1/assets/imgs/especialidades.jpeg">
-                <p>Revisa nuestra oferta de especialidades y variedad de Exámenes de Laboratorio.</p>
-            </div>
         </section>
-
-        <section>
-            <h2 id="testimonios">Testimonios de Pacientes</h2>
-            <h3>María González - Paciente de cirugía general</h3>
-            <p><em>"Mi experiencia en el Hospital Matta fue excepcional. Desde el momento en que ingresé, el personal me trató con amabilidad y profesionalismo. La cirugía fue un éxito, y el seguimiento postoperatorio fue muy cuidadoso. Me sentí en buenas manos en todo momento, y recomendaría este hospital sin dudarlo a familiares y amigos."</em></p>
-            <img 
-                width="200"
-                height="200"
-                title="Testimonio de pacientes 1" 
-                alt="María González, una mujer de 40 años sonriente, con melena castaña y rizos." 
-                src="/M2AE1/assets/imgs/testimonio_1.jpg">
-
-            <h3>Carlos Pérez - Paciente de atención de emergencia</h3>
-            <p><em>"Llegué al Hospital Matta en una situación de emergencia y el equipo médico actuó rápidamente para estabilizarme. La atención fue eficiente y humana, lo que me dio mucha tranquilidad en un momento de gran estrés. Agradezco al equipo por su dedicación y profesionalismo. Hoy, gracias a ellos, estoy recuperado y en buen estado de salud."</em></p>
-            <img style="text-align: center;"
-                width="200"
-                height="200"
-                title="Testimonio de pacientes 2" 
-                alt="Carlos Pérez, un hombre calvo pero jovial de 60 años con lentes de marco negro delgado, chaleco beige y pecas en la nuca." 
-                src="/M2AE1/assets/imgs/testimonio_2.jpg">
-        </section>
-
-        <p></p>
-
-        <section>
-            <dialog id="dialog">
-                <h1>Escríbanos</h1>
-                <p>y resuelva sus consultas</p>
-                <button id="hide">Cerrar modal</button>
-            </dialog>
-        </section>
-
-        <button id="show">Información adicional</button>
-        
-        <script>
-            window.show.addEventListener('click',() => {
-                window.dialog.showModal()
-            })
-            window.hide.addEventListener('click',() => {
-                window.dialog.close()
-            })
-        </script>
-        <!-- esto es un pop up! (¿cómo hacer que se abra al abrir la página??)-->
-        
 
     </main>
 
-    <footer style="text-align: center;">
+    <footer>
+        <br>
+        <br>
+        <hr>
+        <header>
+            ¿Aún tienes dudas? Escríbenos a 
+            <a href="https://youtu.be/FqC0Yf8OjAI?si=0cXmB_lliXj_UXeh"><strong>note@matta.cl</strong></a>
+        </header>
+
+        <section>
+            <ul>
+                <li><a href="./index.html#servicios">Servicios</a></li>
+                <li><a href="./equipo-medico.html">Equipo Médico</a></li>
+                <li><a href="https://youtu.be/T_QAxvPjjBc?si=D4rLvDRRNkL1U43Q" target="_blank">Video de presentación</a></li>
+            </ul>
+        </section>
         
-        <a href="mailto:nadja.villarroel.n@gmail.com"Envíame un correo></a>
-        <a href="whatsapp://send?text=Hola Nadja!+56989930088"Mandar whatsapp></a>
-        <div style="max-width: 1200px; margin: 0 auto;">
-            <div>
-                <h4>Enlaces Rápidos</h4>
-                <ul style="list-style: none; padding: 0;">
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="/M2AE1/pags/equipomedico.html">Equipo Médico</a></li>
-                    <li><a href="/M2AE1/pags/contacto.html">Contacto</a></li>
-                </ul>
-            </div>
+        <section>
+            <a href="https://youtu.be/vg5LooFR8Y4?si=dB6iKlMmziSkvN1A"><img src="./assets/img/lig_logo.png" alt="Logo de Instagram" width="50px"></a>
+            <a href="https://youtu.be/DKjzu6ajPio?si=1GGAWDV-XD8hABCh"><img src="./assets/img/wapp_logo.png" alt="Logo de whatsapp" width="50px"></a>
+        </section>
+    </footer>
 
-
-</body> 
+</body>
 </html>
