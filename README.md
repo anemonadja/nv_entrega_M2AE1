@@ -8,12 +8,15 @@ Este proyecto consiste en un sitio web informativo para el **Hospital Matta**, q
 2. Abre la carpeta del proyecto en tu computadora.
 3. Dentro de la carpeta, busca el archivo "index.html"
 4. Para visualizar el sitio, abre "index.html" en tu navegador web preferido.
+
 ## Estructura de carpetas y archivos
 
 /hospital Matta
-- /img          # Imágenes utilizadas en el sitio web
-- /pags         # Carpeta que contiene las diferentes páginas del sitio
-- index.html    # Página del equipo médico
-- equipomedico.html    # Página del equipo médico
-- contacto.html        # Página de contacto
-- README.md         # Archivo README con las instrucciones y descripción del proyecto
+- /assets/img            # Imágenes utilizadas en el sitio web actualizadas para la entrega de 10/11/2024
+- /assets/img/Anteriores # Imágenes utilizadas en el sitio web en su primera versión
+- /pags                  # Carpeta que contiene las diferentes páginas del sitio actualizadas para la entrega de 10/11/2024
+- /pags/Anteriores       # Carpeta que contiene las páginas de su primera versión
+- index.html             # Página del equipo médico
+- equipomedico.html      # Página del equipo médico
+- contacto.html          # Página de contacto
+- README.md              # Archivo README con las instrucciones y descripción del proyecto
